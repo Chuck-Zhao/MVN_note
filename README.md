@@ -1,11 +1,11 @@
 # MVN_note
 
-相关网站
-http://search.maven.org/
-http://www.mvnrepository.com/
+相关网站  
+http://search.maven.org/  
+http://www.mvnrepository.com/  
 
-maven介绍及环境搭建
-介绍：
+maven介绍及环境搭建  
+介绍：  
 	基于项目对象模型，可以通过一小段描述信息来管理项目的构建、报告和文档的软件项目管理工具
 下载 maven.appache.org
 	download maven 3.3.3 jdk 1.7的支持
