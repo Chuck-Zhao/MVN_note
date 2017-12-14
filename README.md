@@ -27,7 +27,7 @@ hello maven的小例子
 			-test
 				-java
 					-package
-			resources
+			resources(资源文件)
 	pom.xml配置文件
 	mvn test	
 		生成target文件夹
@@ -63,7 +63,7 @@ maven的基础知识
 		lib/maven-model-builder的jar
 			其中org/apache/maven/model中pom-4.0.0xml
 			<repository>
-			<id>central</id>
+			<id>central</id> 中央仓库唯一标识
 			<name>Central Repository</name>
 			<url>https://repo.maven.apache.org/maven2</url>默认的中央仓库的地址
 			<layout>default</layout>默认的布置
@@ -72,12 +72,12 @@ maven的基础知识
 			</snapshots>
 			</repository>
 		中央仓库地址http://search.maven.org/
-	镜像仓库
+	镜像仓库(A提供了和B一样的功能)
 		conf	settings
 		mirror 
 		<mirror>
-			<id>maven.net.cn</id>
-			<mirrorOf>central</mirrorOf> 可以使用* 
+			<id>maven.net.cn</id> 
+			<mirrorOf>central</mirrorOf> 为哪个仓库配置镜像 可以使用* 
 	对原仓库的访问都指向镜像仓库，原仓库不能直接访问
 			<name>central mirror in China</name>
 			<url>http://maven.net.cn/content/groups/public</url>
